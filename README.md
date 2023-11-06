@@ -10,26 +10,34 @@ Assurez-vous d'avoir Node.js v18.17.0 installé sur votre système avant de comm
 
 1. **Installez les dépendances du front-end:**
 
+```sh
 cd font-end
 npm install
+```
 
 2. **Revenez au répertoire principal du projet et installez les dépendances du back-end:**
 
+```sh
 cd ..
 cd back-end
 npm install
+```
 
 ## Lancement du serveur de développement
 
 1. **Lancez le serveur back-end:**
 
+```sh
 npm start
 nodemon server.js
+```
 
 2. **Lancez le serveur de développement front-end (dans le répertoire client):**
 
+```sh
 cd ../front-end
 npm run serve
+```
 
 ## Technologies utilisées
 
